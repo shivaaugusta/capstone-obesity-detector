@@ -1,3 +1,4 @@
+
 import streamlit as st
 import numpy as np
 import joblib
@@ -67,11 +68,22 @@ if page == "🏠 Prediksi":
     # --- PREDIKSI ---
     if st.button("🔍 Prediksi Sekarang"):
         pred = model.predict(features)
-        label = pred[0]
 
-        st.success(f"✅ Hasil Prediksi: **{label.replace('_', ' ')}**")
+        labels = [
+            "Insufficient_Weight",
+            "Normal_Weight",
+            "Overweight_Level_I",
+            "Overweight_Level_II",
+            "Obesity_Type_I",
+            "Obesity_Type_II",
+            "Obesity_Type_III"
+        ]
 
-        # Penjelasan singkat
+        label_index = pred[0]
+        label_name = labels[label_index].replace('_', ' ')
+
+        st.success(f"✅ Hasil Prediksi: **{label_name}**")
+
         st.markdown("### 📘 Keterangan:")
         st.markdown("""
         - **Insufficient Weight**: Berat badan di bawah normal.
@@ -95,7 +107,7 @@ elif page == "ℹ️ Tentang Aplikasi":
     - GitHub & Streamlit Cloud
 
     ### 👥 Developer:
-    Shiva Augusta - Data Science
+    Mahasiswa Bengkel Koding - Data Science
 
     ---
     © 2025 Universitas Dian Nuswantoro
