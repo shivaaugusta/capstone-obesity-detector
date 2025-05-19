@@ -94,11 +94,8 @@ elif page == "ℹ️ Tentang Aplikasi":
     - Python
     - GitHub & Streamlit Cloud
 
-    ### 📅 Periode:
-    Semester Genap 2024/2025
-
-    ### 👥 Tim:
-    Mahasiswa Bengkel Koding - Data Science
+    ### 👥 Developer:
+    Shiva Augusta - Data Science
 
     ---
     © 2025 Universitas Dian Nuswantoro
