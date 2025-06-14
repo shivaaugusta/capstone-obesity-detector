@@ -95,7 +95,7 @@ if page == "🏠 Prediksi":
 elif page == "ℹ️ Tentang Aplikasi":
     st.title("ℹ️ Tentang Aplikasi")
     st.markdown("""
-    Aplikasi ini dibuat sebagai bagian dari **Capstone Project** mata kuliah *Bengkel Koding - Data Science* di **Universitas Dian Nuswantoro**.
+    Aplikasi ini dibuat sebagai bagian dari **Capstone Project** - Data Science* di **Universitas Dian Nuswantoro**.
 
     ### 🧠 Tujuan:
     Membantu memprediksi **tingkat obesitas** berdasarkan data gaya hidup pengguna menggunakan model **Machine Learning**.
@@ -107,7 +107,7 @@ elif page == "ℹ️ Tentang Aplikasi":
     - GitHub & Streamlit Cloud
 
     ### 👥 Developer:
-    Mahasiswa Bengkel Koding - Data Science
+    Shiva Augusta - Data Science
 
     ---
     © 2025 Universitas Dian Nuswantoro
