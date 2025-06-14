@@ -21,12 +21,12 @@ git clone https://github.com/shivaaugusta/capstone-obesity-detector
 .git
 cd capstone-obesity-detector
 
-## Check the App
-https://capstone-obesity-detector.streamlit.app/
-
 2. Install requirements:
 pip install -r requirements.txt
 
 3. Run the app:
 streamlit run app.py
 
+
+## Check the App
+https://capstone-obesity-detector.streamlit.app/
